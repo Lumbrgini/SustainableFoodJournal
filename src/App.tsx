@@ -1,5 +1,5 @@
 import { IonApp } from "@ionic/react";
-import Router from "./routes/router";
+import Router from "./routes/Router";
 function App() {
   return (
     <IonApp>
