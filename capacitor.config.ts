@@ -1,9 +1,9 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.maksym.foodtracker',
-  appName: 'Food Tracker',
-  webDir: 'dist'
+  appId: 'io.ionic.starter',
+  appName: 'SDJ',
+  webDir: 'www'
 };
 
 export default config;
