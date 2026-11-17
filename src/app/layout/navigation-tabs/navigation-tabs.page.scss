@@ -1,0 +1,16 @@
+ion-tab-bar {
+  --background: #000000;
+  --border: none;
+  height: 64px;
+  box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.08);
+}
+
+ion-tab-button {
+  --color: var(--ion-color-medium); // неактивная вкладка
+  --color-selected: var(--ion-color-primary); // активная вкладка
+}
+
+// активную вкладку Ionic помечает классом tab-selected
+ion-tab-button.tab-selected ion-icon {
+  transform: scale(1.1);
+}
